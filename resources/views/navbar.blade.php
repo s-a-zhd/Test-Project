@@ -28,13 +28,13 @@
                 <a class="nav-link" href="{{ route('login') }}">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="{{ route('allpost.index') }}">All Post</a>
+                <a class="nav-link " href="{{ route('allpost.index') }}">See All Post</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="{{ route('create.create') }}">CreatePost</a>
+                <a class="nav-link " href="{{ route('create.create') }}">Create Post</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('create.index') }}">Home</a>
+                <a class="nav-link" href="{{ route('home') }}">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/logout">Logout</a>
