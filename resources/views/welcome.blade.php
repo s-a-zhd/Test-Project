@@ -1,9 +1,7 @@
 @extends('navbar')
 @section('content')
     
-      <div>
-
-      </div>
+      
 
       <div style="clear: both">
         <h3  style="float: left">Section 1</h3>
@@ -33,7 +31,7 @@
            @endforeach
           
            <div class="col-sm-4">
-                <!--Nested rows within a column-->
+               
                 
                 <div class="row">
                   @foreach($list1 as $video) 
@@ -52,7 +50,7 @@
                     @endforeach
                 </div>
               
-                {{-- <div class="row">
+                 {{-- <div class="row">
                   @foreach($list1 as $video) 
                 @if ($video->status==0 && $loop->odd) 
                     <div class="col-6">
@@ -67,7 +65,7 @@
                     @endif
                     @endforeach
                     
-                </div> --}}
+                </div>  --}}
             </div>
 
           
@@ -79,7 +77,9 @@
               @foreach($list2 as $post)
               @if($post->status==0 && $loop->first) 
                 <a href={{ route('create.edit',$post->id)}}">
+                  <div>
                 <img src="{{ $post->link }}" alt=""  class="img-fluid" alt="Responsive image" height="" width="">
+              
               </a>
               
                 <div class="title">

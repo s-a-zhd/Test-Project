@@ -1,5 +1,6 @@
 @extends('navbar')
 @section('content')
+<div class="box">
 <div class="container h-100">
     <div class="row h-300 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
@@ -27,5 +28,6 @@
            
         </div>
     </div>
+</div>
 </div>
 @endsection('content')
