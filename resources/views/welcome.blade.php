@@ -30,7 +30,7 @@
                 
                 <div class="row">
                   @foreach($list1 as $video) 
-                @if($video->status==0 && $loop->even) 
+                @if($video->status==0) 
                     <div class="col-6">
                         <div class="sidebar-content">
                           <a href="{{ $video->link  }}">
@@ -45,7 +45,7 @@
                     @endforeach
                 </div>
               
-                <div class="row">
+                {{-- <div class="row">
                   @foreach($list1 as $video) 
                 @if ($video->status==0 && $loop->odd) 
                     <div class="col-6">
@@ -60,7 +60,7 @@
                     @endif
                     @endforeach
                     
-                </div>
+                </div> --}}
             </div>
 
           
@@ -108,9 +108,7 @@
              
             </div>
           </>
-
         </div>
     </div>
       </div>
     @endsection('content')
-      
