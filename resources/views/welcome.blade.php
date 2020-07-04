@@ -1,8 +1,15 @@
 @extends('navbar')
 @section('content')
     
+      <div>
 
-       
+      </div>
+
+      <div style="clear: both">
+        <h3  style="float: left">Section 1</h3>
+        <h3 style="float: right">Section 2</h3>
+      </div>
+      <hr />
       <div class="container-fluid mt-3"  style="clear: both">
        
         

@@ -52,7 +52,7 @@
                 <div class="form-group">
                     <label for="">Details</label>
                     <div>
-                  <textarea name="details" id="" cols="50" rows="10"></textarea>
+                  <textarea class="form-control" name="details" id="" cols="50" rows="10"></textarea>
                 </div>
                 </div>
                 <button type="" class="btn btn-primary btn-customized">Create Post</button>
