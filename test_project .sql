@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2020 at 08:01 PM
+-- Generation Time: Jul 05, 2020 at 05:07 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -103,18 +103,19 @@ CREATE TABLE `posts` (
 
 INSERT INTO `posts` (`id`, `created_at`, `updated_at`, `title`, `link`, `type`, `section`, `details`, `status`) VALUES
 (5, '2020-07-04 03:19:34', '2020-07-04 03:19:34', 'What Happened to the Bodies From the Titanic?', 'https://www.youtube.com/embed/Y3Qa-1o26CI', 'video', 'section1', 'If you like this video - put Thumb Up button (please) and \r\nSubscribe to Ridddle channel. We will make this universe smarter together!\r\nOkay, okay. I got to go..... See You Soooooooooooooooon dudes ;)', 1),
-(6, '2020-07-04 03:22:47', '2020-07-04 03:22:47', 'What Happened to the Bodies From the Titanic', 'https://www.youtube.com/embed/Y3Qa-1o26CI', 'video', 'section1', 'If you like this video - put Thumb Up button (please) and \r\nSubscribe to Ridddle channel. We will make this universe smarter together!\r\nOkay, okay. I got to go..... See You Soooooooooooooooon dudes ;)', 1),
+(6, '2020-07-04 03:22:47', '2020-07-04 03:22:47', 'What Happened to the Bodies From the Titanic', 'https://www.youtube.com/embed/Y3Qa-1o26CI', 'video', 'section1', 'If you like this video - put Thumb Up button (please) and \r\nSubscribe to Ridddle channel. We will make this universe smarter together!\r\nOkay, okay. I got to go..... See You Soooooooooooooooon dudes ;)', 0),
 (7, '2020-07-04 04:37:53', '2020-07-04 04:37:53', 'The Most Mysterious and Scary Sounds Ever Recorded in Space', 'https://www.youtube.com/embed/hTHOzVzd_-8', 'video', 'section1', 'If you like this video - put Thumb Up button (please) and \r\nSubscribe to Ridddle channel. We will make this universe smarter together!\r\nOkay, okay. I got to go..... See You Soooooooooooooooon dudes ;)', 0),
 (8, '2020-07-04 05:21:13', '2020-07-04 05:21:13', 'She Is A Little Big\"', 'https://www.youtube.com/embed/52PtNDXTvfU', 'video', 'section1', 'Tlc react epic\r\nFloor Gang Merch! https://represent.com/store/pewdiepie (Thank you)\r\nSubscribe to become a FLOOR GANG Member here: https://www.youtube.com/channel/UC-lH...\r\nGet exclusive epic pewdiepie inside epic access and huge PP!\r\n\r\nOutro: add Just Die Already as wishlist #ad: https://store.steampowered.com/app/97...\r\n\r\nAnd Check out https://youtu.be/FQgLsYOKP8w Arkade Blaster Pro! #ad', 0),
 (9, '2020-07-04 05:50:43', '2020-07-04 05:50:43', 'How Big Can a Rocket Actually Be? Size Comparison.', 'https://placeimg.com/640/480/any', 'post', 'section2', 'https://placeimg.com/100/100/any', 1),
 (10, '2020-07-04 07:01:01', '2020-07-04 07:01:01', 'test', 'http://placeimg.com/640/480/any', 'post', 'section2', 'rextcgygubhijok', 1),
 (11, '2020-07-04 07:01:01', '2020-07-04 07:01:01', 'Lorem ipsum dolor sit amet ', 'http://placeimg.com/640/480/any', 'post', 'section2', 'consectetur adipisicing elit. Temporibus nostrum adipisci consequuntur nobis? Voluptas laborum velit, voluptatem numquam dolores minus exercitationem repudiandae qui eum explicabo soluta, itaque impedit excepturi sit.', 0),
 (14, '2020-07-04 07:01:01', '2020-07-04 07:01:01', 'Lorem ipsum ', 'https://placeimg.com/640/480/any', 'post', 'section2', 'consectetur adipisicing elit. Temporibus nostrum adipisci consequuntur nobis? Voluptas laborum velit, voluptatem numquam dolores minus exercitationem repudiandae qui eum explicabo soluta, itaque impedit excepturi sit.', 0),
-(15, '2020-07-04 07:19:03', '2020-07-04 07:19:03', 'rerum ipsa eveniet libero alias', 'https://placeimg.com/640/480/any', 'post', 'section2', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia harum in corporis sed. Hic ipsam aliquam sit expedita cumque reprehenderit vel, doloribus nesciunt ad, rerum ipsa eveniet libero alias.', 1),
-(16, '2020-07-04 07:19:55', '2020-07-04 07:19:55', 'expedita cumque reprehenderit ve', 'https://placeimg.com/640/480/any', 'post', 'section2', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia harum in corporis sed. Hic ipsam aliquam sit expedita cumque reprehenderit vel, doloribus nesciunt ad, rerum ipsa eveniet libero alias.', 0),
-(17, '2020-07-04 10:46:03', '2020-07-04 10:46:03', 'Killswitch Engage - The Signal Fire (First Time Hearing) TM Reacts (2LM Reaction)', 'https://www.youtube.com/embed/iwZ8PYkJcYY', 'video', 'section1', 'Wow! This is my first time ever listening to metal music yet alone this is my first time ever hearing and reacting to Killswitch Engage. i have really been missing out on all types of music but this right here is at the peak of all misses. Metal music will put you in a different mind state and its crazy!', 0),
+(15, '2020-07-04 07:19:03', '2020-07-04 07:19:03', 'rerum ipsa eveniet libero alias', 'https://placeimg.com/640/480/any', 'post', 'section2', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia harum in corporis sed. Hic ipsam aliquam sit expedita cumque reprehenderit vel, doloribus nesciunt ad, rerum ipsa eveniet libero alias.', 0),
+(16, '2020-07-04 07:19:55', '2020-07-04 07:19:55', 'expedita cumque reprehenderit ve', 'https://placeimg.com/640/480/any', 'post', 'section2', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officia harum in corporis sed. Hic ipsam aliquam sit expedita cumque reprehenderit vel, doloribus nesciunt ad, rerum ipsa eveniet libero alias.', 1),
+(17, '2020-07-04 10:46:03', '2020-07-04 10:46:03', 'Killswitch Engage - The Signal Fire (First Time Hearing) TM Reacts (2LM Reaction)', 'https://www.youtube.com/embed/iwZ8PYkJcYY', 'video', 'section1', 'Wow! This is my first time ever listening to metal music yet alone this is my first time ever hearing and reacting to Killswitch Engage. i have really been missing out on all types of music but this right here is at the peak of all misses. Metal music will put you in a different mind state and its crazy!', 1),
 (19, '2020-07-04 11:52:04', '2020-07-04 11:52:04', 'First Time Hearing!! Wage War - The River \"Official Video\" TM Reacts (2LM Reaction)', 'https://www.youtube.com/embed/cQhEdROJfCo', 'video', 'section1', 'All I\'m going to say without spoiling anything in this video is! This is one reaction and video you don\'t want to miss. For the first time ever I\'m diving into Wage War so experience with me! Enjoy!', 0),
-(20, '2020-07-04 11:53:10', '2020-07-04 11:53:10', 'testing purpose', 'https://placeimg.com/640/480/any', 'post', 'section2', 'All I\'m going to say without spoiling anything in this video is! This is one reaction and video you don\'t want to miss. For the first time ever I\'m diving into Wage War so experience with me! Enjoy!', 0);
+(20, '2020-07-04 11:53:10', '2020-07-04 11:53:10', 'testing purpose', 'https://placeimg.com/640/480/any', 'post', 'section2', 'All I\'m going to say without spoiling anything in this video is! This is one reaction and video you don\'t want to miss. For the first time ever I\'m diving into Wage War so experience with me! Enjoy!', 0),
+(21, '2020-07-05 09:00:03', '2020-07-05 09:00:03', 'ONLY 2 PEOPLE LIVE on THIS ISLAND', 'https://www.youtube.com/embed/Ay237g3Up_M', 'video', 'section1', 'Today, we arrived on the Falkland Islands (Islas Malvinas), our second stop of this Hurtigruten expedition. The Falklands are an archipelago of 740 islands in the South Atlantic Sea -- and we\'ve landed on a tiny one in the Western part called \'New Island\'...', 0);
 
 -- --------------------------------------------------------
 
@@ -132,6 +133,13 @@ CREATE TABLE `users` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Admin', 'admin@gmail.com', NULL, 'admin123', NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -194,13 +202,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
