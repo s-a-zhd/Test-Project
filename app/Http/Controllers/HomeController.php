@@ -8,8 +8,8 @@ class HomeController extends Controller
 {
     //
     public function index (Request $req){
-        $list1= DB::table('posts')->orderby('created_at', 'desc')->where('type','video')->get();
-        $list2= DB::table('posts')->orderby('created_at', 'desc')->where('type','post')->get();
+        $list1= DB::table('posts')->orderby('created_at', 'desc')->where('type','video')->where('status',0)->get();
+        $list2= DB::table('posts')->orderby('created_at', 'desc')->where('type','post')->where('status',0)->get();
         
         return view('welcome',compact('list1','list2'));
     }
