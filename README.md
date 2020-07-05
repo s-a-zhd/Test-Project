@@ -1,9 +1,5 @@
 Sql file is provided
 
-To log in
-
-email: admin@gmail.com
-password: admin123
 
 Notes:
 
